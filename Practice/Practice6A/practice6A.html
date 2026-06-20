@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice 6A</title>
+
+        <style>
+            body{
+                background:#e6e6e6;
+                font-family: "Courier New", monospace;
+            }
+
+            h1{
+                font-family: serif;
+            }
+
+            table{
+                width: 950px;
+                border-spacing: 2px;
+                margin-bottom: 30px;
+            }
+
+            th, td{
+                border: 1px solid #7a4a2c;
+                text-align: center;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .caption{
+                background: #c9cf8d;
+                border: 2px solid #6b2d1a;
+                border-radius: 10px;
+                font-weight: bold;
+            }
+
+            .header{
+                background: #88a176;
+                border: 2px solid #6b2d1a;
+                border-radius: 10px;
+            }
+
+            .light{
+                background: #e1bb99;
+            }
+
+            .dark{
+                background: #dfa574;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!--Table 1-->
+
+        <table>
+            <tr>
+                <th class="caption" colspan="2">Exercise 8-1</th>
+            </tr>
+
+            <tr>
+                <th class="header">Album</th>
+                <th class="header">Year</th>
+            </tr>
+
+            <tr class="light">
+                <td>Rubber Soul</td>
+                <td>1965</td>
+            </tr>
+
+            <tr class="dark">
+                <td>Revolver</td>
+                <td>1966</td>
+            </tr>
+
+            <tr class="light">
+                <td>Sgt. Pepper's</td>
+                <td>1967</td>
+            </tr>
+
+            <tr class="dark">
+                <td>The White Album</td>
+                <td>1968</td>
+            </tr>
+
+            <tr class="light">
+                <td>Abbey Road</td>
+                <td>1969</td>
+            </tr>
+        </table>
+
+        <!--Table 2-->
+
+
+        <table>
+            <tr>
+                <th class="caption" colspan="3">Exercise 8-2</th>
+            </tr>
+
+            <tr>
+                <th class="header">7:00pm</th>
+                <th class="header">7:30pm</th>
+                <th class="header">8:00pm</th>
+            </tr>
+
+            <tr class="light">
+                <td colspan="3">The Sunday Night Movie</td>
+            </tr>
+
+            <tr class="dark">
+                <td>Perry Mason</td>
+                <td>Candid Camera</td>
+                <td>What's My Line?</td>
+            </tr>
+
+            <tr class="light">
+                <td>Bonanza</td>
+                <td colspan="2">The Wackiest Ship in the Army</td>
+            </tr>
+        </table>
+
+        <!--Table 3-->
+
+        <table>
+            <tr>
+                <th class="caption" colspan="3">Exercise 8-3</th>
+            </tr>
+
+            <tr class="dark">
+                <td>Apples</td>
+                <td rowspan="3">Oranges</td>
+                <td>Pears</td>
+            </tr>
+
+            <tr class="light">
+                <td>Bananas</td>
+                <td rowspan="2">Pineapple</td>
+            </tr>
+
+            <tr class="dark">
+                <td>Lychees</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
