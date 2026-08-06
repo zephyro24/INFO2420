@@ -12,7 +12,7 @@ var titleArray = [
 	'Couple Flyfishing'
 ];
 
-var imgPath = "images/FullSize/";
+var imgPath = "Images/FullSize/";
 
 function swapImage(imgID) {
 	var theImage = document.getElementById('theImage');
