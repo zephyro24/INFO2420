@@ -203,6 +203,9 @@ article {
     background-color: #FFFFFF; /* white article background */
     padding: 20px;
 }
+article img {
+	float: none;
+}
 
 article p {
     text-align: left;
