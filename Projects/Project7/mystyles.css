@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* General page styles */
+
+body {
+    background-color: #DFF2D8; /* light green page background */
+    color: #1F3A5F; /* dark blue main text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+
+/* Heading styles */
+
+h1 {
+    color: #1E4D8F; /* dark blue main headings */
+    font-size: 2em;
+}
+
+h2 {
+    color: #1E4D8F; /* dark blue secondary headings */
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #2C5F8A; /* medium blue smaller headings */
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
+/* Text styles */
+
+p {
+    line-height: 1.5;
+}
+
+blockquote {
+    color: #444444; /* dark gray quote text */
+    font-style: italic;
+}
+
+
+/* Link styles */
+
+a:link {
+    color: #1E4D8F; /* blue unvisited links */
+}
+
+a:visited {
+    color: #163A68; /* darker blue visited links */
+}
+
+a:hover,
+a:focus {
+    color: #0B2E59; /* deep blue hover/focus links */
+    text-decoration: underline;
+}
+
+
+/* Image styles */
+
+img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #4E6A89; /* blue-gray image border */
+}
+
+
+/* Table styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin: 20px 0;
+}
+
+caption {
+    background-color: #3D5674; /* dark blue table caption background */
+    color: white; /* white caption text */
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #4E6A89; /* medium blue table header background */
+    color: white; /* white table header text */
+    font-size: 1.1em;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    background-color: #F7FBFB; /* very light blue-gray table cells */
+    color: #333333; /* dark gray table text */
+    border: 1px solid #A7C4BC; /* light green-gray table border */
+    padding: 10px;
+}
+
+tr:nth-child(even) td {
+    background-color: #EAF4E4; /* light green alternating table rows */
+}
+
+
+/* Home page header */
+
+header {
+    width: 900px;
+    height: 175px;
+    margin: 0 auto;
+    background-color: #B7DDB0; /* soft green header background */
+}
+
+
+/* Logo image */
+
+.logoleft {
+    float: left;
+    margin: 10px;
+    border: none;
+}
+
+
+/* Banner image */
+
+.banner {
+    display: block;
+    margin: 10px auto;
+    float: none;
+    border: none;
+}
+
+
+/* Navigation */
+
+nav {
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    display: block;
+    background-color: #7FB3D5; /* light blue navigation buttons */
+    color: #1F3A5F; /* dark blue navigation text */
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #1E4D8F; /* dark blue button hover */
+    color: white; /* white hover text */
+}
+
+
+/* Home page section */
+
+section {
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("Images/backimage.jpg");
+    background-repeat: repeat-y;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+
+/* Home page article */
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white; /* white article background */
+    padding: 20px;
+}
+
+article p {
+    text-align: left;
+}
+
+
+/* Thumbnail gallery */
+
+#thumbs {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#thumbs img {
+    float: none;
+    border: solid 1px #000000; /* black thumbnail border */
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+/* Full size image */
+
+#image {
+    width: 700px;
+    height: 400px;
+    border: solid 1px #000000; /* black image display border */
+    text-align: center;
+    margin: 0 auto;
+    background-color: #EEEEEE; /* light gray image area background */
+}
+
+#image img {
+    float: none;
+}
+
+
+/* Footer */
+
+footer {
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #2E6B3A; /* dark green footer background */
+    color: white; /* white footer text */
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer a {
+    color: white; /* white footer links */
+}
+
+footer a:hover {
+    color: #A7C4BC; /* light green footer hover links */
+}
